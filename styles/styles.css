@@ -139,6 +139,10 @@ color: #FFFFFF;
 
 /* for mobile devices { */
 @media screen and (max-width: 600px){
+    .navbar{
+        width: 375px;
+       
+    }
     .logo-title img{
         width: 28.724px;
 height: 33.516px;
