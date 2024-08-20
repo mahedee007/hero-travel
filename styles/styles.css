@@ -108,6 +108,7 @@ border-radius: 8px;
 background: #FFF;
 border: none;
 
+
 }
 .find-btn{
     width: 174px;
@@ -138,6 +139,10 @@ color: #FFFFFF;
 
 /* for mobile devices { */
 @media screen and (max-width: 600px){
+    .logo-title img{
+        width: 28.724px;
+height: 33.516px;
+    }
     nav > ul li a{
         display: none;;
     }
@@ -148,5 +153,31 @@ color: #FFFFFF;
         font-size: 1.1rem;
         font-weight: 800;
     }
-    
+    .banner{
+        width: 335px;
+height: 483px;
+background-size:cover;
+background-position: center center;
+    }
+    .banner h1{
+        font-size: 1.5rem;
+        margin-top: 32px;
+
+    }
+    .banner p{
+        font-size: 14px;
+        width: 304px;
+        margin-top: 0;
+        margin-bottom: 32px;
+    }
+    form{
+        flex-direction: column;
+        gap: 16px;
+    }
+    form> input, select{
+        width: 255px;
+    }
+    .find-btn{
+        width: 255px;
+    }
 }
